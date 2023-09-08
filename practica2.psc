@@ -1,4 +1,4 @@
-Algoritmo ejemplo1
+Algoritmo practica2
 
-	Escribir "Tu nombre"
+	Escribir "Mi nombre es Ezequiel"
 FinAlgoritmo
