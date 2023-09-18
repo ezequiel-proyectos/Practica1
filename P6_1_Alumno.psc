@@ -10,7 +10,7 @@ Algoritmo P6_1_Alumno
     mxunid3 <- 0
     mxunid4 <- 0
 	
-    Escribir "緾u醤tos estudiantes hay en el grupo?"
+    Escribir "驴Cu谩ntos estudiantes hay en el grupo?"
     Leer n
     i <- 0
 	
@@ -19,7 +19,8 @@ Algoritmo P6_1_Alumno
         Escribir "Ingresa el nombre del estudiante", i + 1, ":"
         Leer Nralum
         
-        Escribir "Ingresa la calificaci髇 de la unidad 1 para ", Nralum, ":"
+		// Identificar la calificacion de la unidad 1 
+        Escribir "Ingresa la calificaci贸n de la unidad 1 para ", Nralum, ":"
         Leer calificacion
         suma <- suma + calificacion
         Si calificacion > mxunid1 Entonces
@@ -27,7 +28,8 @@ Algoritmo P6_1_Alumno
             almunid1 <- Nralum
         FinSi
 		
-        Escribir "Ingresa la calificaci髇 de la unidad 2 para ", Nralum, ":"
+		// Identificar la calificacion de la unidad 2
+        Escribir "Ingresa la calificaci贸n de la unidad 2 para ", Nralum, ":"
         Leer calificacion
         suma <- suma + calificacion
         Si calificacion > mxunid2 Entonces
@@ -35,7 +37,8 @@ Algoritmo P6_1_Alumno
             almunid2 <- Nralum
         FinSi
 		
-        Escribir "Ingresa la calificaci髇 de la unidad 3 para ", Nralum, ":"
+		// Identificar la calificacion de la unidad 3
+        Escribir "Ingresa la calificaci贸n de la unidad 3 para ", Nralum, ":"
         Leer calificacion
         suma <- suma + calificacion
         Si calificacion > mxunid3 Entonces
@@ -43,7 +46,8 @@ Algoritmo P6_1_Alumno
             almunid3 <- Nralum
         FinSi
 		
-        Escribir "Ingresa la calificaci髇 de la unidad 4 para ", Nralum, ":"
+		// Identificar la calificacion de la unidad 4 
+        Escribir "Ingresa la calificaci贸n de la unidad 4 para ", Nralum, ":"
         Leer calificacion
         suma <- suma + calificacion
         Si calificacion > mxunid4 Entonces
@@ -69,8 +73,9 @@ Algoritmo P6_1_Alumno
 		FinSi
 	FinSi
 	
-    Escribir "La media de calificaci髇 grupal es: ", media
-    Escribir "La unidad con la calificaci髇 m醩 alta es la unidad: ", undalta
+	//Mostrar los resultados solicitados
+    Escribir "La media de calificaci贸n grupal es: ", media
+    Escribir "La unidad con la calificaci贸n m谩s alta es la unidad: ", undalta
     Escribir "La mayor calificacion de la unidad 1 le pertenece a: ", almunid1
     Escribir "La mayor calificacion de la unidad 2 le pertenece a: ", almunid2
     Escribir "La mayor calificacion de la unidad 3 le pertenece a:  ", almunid3
