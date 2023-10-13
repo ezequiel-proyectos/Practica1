@@ -1,5 +1,5 @@
 Algoritmo Tarea5_Eje1
-	//vector de 10 elementos Imprimir el elementode mayor cantidad y la posiscion suponiendo que todos los elementos son distintos
+//	vector de 10 elementos Imprimir el elementode mayor cantidad y la posiscion suponiendo que todos los elementos son distintos
 	Definir i,cont,numeroMayor Como Entero
 	Dimension cantidad[10]
 
