@@ -1,8 +1,10 @@
 Algoritmo Tarea5_Eje3
+//	Inicializa el vector y crea el valor cont a 0
 	cont=0
 	Dimension vectorx[20]
 	Escribir "NUumero: "
 	leer numeroing
+//	LLenar el vector de 20 elementos
 	vectorx[1]=9
 	vectorx[2]=15
 	vectorx[3]=10
@@ -23,11 +25,14 @@ Algoritmo Tarea5_Eje3
 	vectorx[18]=67
 	vectorx[19]=92
 	vectorx[20]=40
+
+// verificar si el numero esta dentro de el vector y guardar la posicion
 	para i<-1 hasta 20 Con Paso 1 Hacer
 		si numeroing==vectorx[i] Entonces
 			cont<-i
 		FinSi
 	FinPara
+// en caso de ser verdad imprimir
 	si cont>0 Entonces
 		Escribir "el numero si esta en el vector"
 		Escribir "en la posicion es: ",cont
