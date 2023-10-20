@@ -1,5 +1,13 @@
 Algoritmo Tarea6_eje1_Ezequiel
-	
+//	Crear un pseudocodigo que lea los precios de 5 productos y las cantidades vendidas de dichos productos en una empresa en sus 4 sucursales, haga lo siguientes puntos:
+//		a) cantidad totales de cada articulo
+//		b)la cantidad de articulos en la sucursal num2
+//		c)la cantidad de articulo 3 en la sucursal num1
+//		d)La recaudacion total por cada sucursal
+//		e)la recaudacion total de la empresa 
+//		f)la sucursal de mayor recaudacion 
+//		g)los clientes que mas compran por sucursal
+//		h)imprimir las ventas totales por sucursal de cada uno de los clientes
 	Dimension precios[5] 
 	Dimension Sucursal1[5]
 	Dimension Sucursal2[5] 
@@ -44,25 +52,25 @@ Algoritmo Tarea6_eje1_Ezequiel
 		FinSi
 	FinPara
 	
-	Escribir "Cantidad total de cada artículo:"
+	Escribir "Cantidad total de cada artÃ­culo:"
 	Para i <- 1 Hasta 5 Hacer
 		Escribir "Producto ", i, ": ", Sucursal1[i] + Sucursal2[i] + Sucursal3[i] + Sucursal4[i]
 	FinPara
 	
-	Escribir "Cantidad de artículos en la sucursal num2:"
+	Escribir "Cantidad de artÃ­culos en la sucursal num2:"
 	Para i <- 1 Hasta 5 Hacer
 		Escribir "Producto ", i, ": ", Sucursal2[i]
 	FinPara
 	
-	Escribir "Cantidad de artículo 3 en la sucursal num1:", Sucursal1[3]
+	Escribir "Cantidad de artÃ­culo 3 en la sucursal num1:", Sucursal1[3]
 	
-	Escribir "Recaudación total por cada sucursal:"
+	Escribir "RecaudaciÃ³n total por cada sucursal:"
 	Para i <- 1 Hasta 4 Hacer
 		Escribir "Sucursal ", i, ": $", sucursal[i]
 	FinPara
 	
-	Escribir "Recaudación total de la empresa: $", totalEmpresa
+	Escribir "RecaudaciÃ³n total de la empresa: $", totalEmpresa
 	
-	Escribir "Sucursal con mayor recaudación: Sucursal ", sucursalMayorRecaudacion
+	Escribir "Sucursal con mayor recaudaciÃ³n: Sucursal ", sucursalMayorRecaudacion
 	
 FinAlgoritmo
