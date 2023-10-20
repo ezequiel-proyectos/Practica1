@@ -8,16 +8,9 @@ Algoritmo P14_eje1_Vectores
 	FinPara
 	
 	// Inicializar el número mayor y segundo mayor con los primeros dos elementos del arreglo
-	Si arregloNumeros[1] > arregloNumeros[2] entonces
-		numeroMayor = arregloNumeros[1]
-		segundoMayor = arregloNumeros[2]
-	sino
-		numeroMayor = arregloNumeros[2]
-		segundoMayor = arregloNumeros[1]
-	FinSi
 	
 	// Recorrer el arreglo para encontrar el número mayor y el segundo mayor
-	Para i = 3 hasta n hacer
+	Para i = 1 hasta n hacer
 		Si arregloNumeros[i] > numeroMayor entonces
 			segundoMayor = numeroMayor
 			numeroMayor = arregloNumeros[i]
